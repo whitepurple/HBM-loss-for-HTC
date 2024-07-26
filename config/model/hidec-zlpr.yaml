@@ -1,0 +1,10 @@
+defaults:
+  - default
+  - decoder: base
+  - override criterion: zlpr
+  - override postprocess: hidec
+
+name: hidec-base-zlpr
+cls: hidec
+dataset_cls: htc
+collator_cls: hidec

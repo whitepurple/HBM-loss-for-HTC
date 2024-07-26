@@ -1,0 +1,6 @@
+defaults:
+  - default
+
+dataset: rcv
+data_dir: data/rcv1v2/pregenerated
+cache_dir: data/rcv1v2/cache-simple

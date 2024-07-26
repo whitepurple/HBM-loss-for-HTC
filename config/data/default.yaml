@@ -1,0 +1,14 @@
+max_seq_length: 512
+batch_size: ???
+total_batch_size: 64
+dataloader_num_workers: 4
+dataset: ???
+data_dir: ???
+cache_dir: ???
+train_file: train.jsonl
+val_file: dev.jsonl
+test_file: test.jsonl
+target_labels: target_labels.txt
+node: labels.txt
+tree: parent_child_map.txt
+overwrite_cache: false

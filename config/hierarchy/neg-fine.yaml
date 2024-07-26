@@ -1,0 +1,6 @@
+defaults:
+  - default
+
+name: neg-fine
+params:
+  p: 0.1

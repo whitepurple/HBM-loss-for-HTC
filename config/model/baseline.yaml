@@ -1,0 +1,5 @@
+defaults:
+  - default
+
+name: bert-base-uncased
+cls: baseline

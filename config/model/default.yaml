@@ -1,0 +1,9 @@
+defaults:
+  - criterion: bce
+  - postprocess: default
+  - encoder: bert_base_uncased
+  
+name: ???
+cls: ???
+dataset_cls: baseline
+collator_cls: baseline

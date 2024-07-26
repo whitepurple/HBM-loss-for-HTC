@@ -1,0 +1,11 @@
+weight_decay: 0.1
+lr: 5e-5
+adam_epsilon: 1e-8
+
+lr_scheduler: wl
+warmup_ratio: 0.1
+
+lr_drop_milestones: [100]
+lr_drop_gamma: 0.1
+
+

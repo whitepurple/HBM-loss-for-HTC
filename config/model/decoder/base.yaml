@@ -1,0 +1,6 @@
+defaults:
+  - default
+
+d_model: 768
+nhead: 12
+dim_feedforward: 3072

@@ -1,0 +1,11 @@
+defaults:
+  - default
+  - decoder: base
+  - override criterion: hbm
+  - override postprocess: hidec
+
+name: hidec-base-hbm
+cls: hidec-hbm
+dataset_cls: htc
+collator_cls: hidec
+

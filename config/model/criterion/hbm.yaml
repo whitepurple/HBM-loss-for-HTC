@@ -1,0 +1,7 @@
+defaults:
+  - default
+  
+cls: hidec-hbm
+params:
+  alpha: 1.0
+  margin: 0.1

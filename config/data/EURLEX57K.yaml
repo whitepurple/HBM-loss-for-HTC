@@ -1,0 +1,8 @@
+defaults:
+  - default
+
+dataset: eurlex
+data_dir: data/EURLEX57K/pregenerated
+cache_dir: data/EURLEX57K/cache-simple
+node: labels_tree.txt
+tree: parent_child_map_tree.txt

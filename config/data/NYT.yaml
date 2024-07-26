@@ -1,0 +1,6 @@
+defaults:
+  - default
+
+dataset: nyt
+data_dir: data/nyt/pregenerated
+cache_dir: data/nyt/cache-simple

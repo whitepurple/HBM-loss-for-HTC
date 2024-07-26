@@ -1,0 +1,14 @@
+accelerator: cuda
+strategy: ddp
+precision: 16-mixed
+max_epochs: 100
+max_steps: null
+grad_accum_steps: 1
+validation_frequency: 1
+use_distributed_sampler: true
+gradient_clip_val: 1.0
+deterministic: false
+benchmark: false
+seed: -1
+log_skip: 3
+devices: ???

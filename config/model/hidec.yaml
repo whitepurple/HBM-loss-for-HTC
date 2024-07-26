@@ -1,0 +1,9 @@
+defaults:
+  - default
+  - decoder: base
+  - override postprocess: hidec
+
+name: hidec-base
+cls: hidec
+dataset_cls: htc
+collator_cls: hidec

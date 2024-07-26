@@ -1,0 +1,34 @@
+defaults:
+  - data: NYT
+  - hierarchy: default
+  - model: hidec-hbm
+  - trainer: default
+  - logger: default
+  - checkpoint: default
+  - optim: default
+  - _self_
+  - override hydra/job_logging: disabled
+  - override hydra/hydra_logging: disabled
+
+dataset_name: ${data.dataset}
+num_labels: ???
+num_target_labels: ???
+logger_id: ???
+
+ckpt_path: null
+do_train: true
+do_test: true
+trials: 1
+devices: 0
+
+## Need to be filled
+name: ???
+## Need to be filled end
+
+
+hydra:
+  run:
+    dir: '.'
+  job:
+    chdir: true
+  output_subdir: null

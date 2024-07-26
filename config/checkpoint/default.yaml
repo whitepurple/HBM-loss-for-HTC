@@ -1,0 +1,9 @@
+verbose: true
+save_last: false
+save_top_k: 1
+every_n_epochs: 1
+save_weights_only: false
+save_on_train_epoch_end: false
+checkpoint_dir: ckpt_dataserver
+monitor: [val_micro_f1]
+mode: [max]

@@ -1,0 +1,6 @@
+defaults:
+  - default
+
+name: neg
+params:
+  p: 0.1

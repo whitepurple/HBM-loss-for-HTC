@@ -1,0 +1,10 @@
+torch
+lightning==2.0.0
+torchmetrics==1.2.1
+transformers
+wandb
+ipykernel
+easydict
+anytree
+hydra-core
+omegaconf

@@ -1,0 +1,6 @@
+d_model: ???
+nhead: ???
+dim_feedforward: ???
+dropout: 0.1
+activation: relu
+num_layers: 2

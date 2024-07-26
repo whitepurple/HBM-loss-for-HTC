@@ -1,0 +1,19 @@
+defaults:
+  - data: NYT
+  - model: hidec-hbm
+  - _self_
+  - override hydra/job_logging: disabled
+  - override hydra/hydra_logging: disabled
+
+dataset_name: ${data.dataset}
+
+stage: ???
+num_workers: 1
+chunk_size: 100000
+
+hydra:
+  run:
+    dir: '.'
+  job:
+    chdir: true
+  output_subdir: null

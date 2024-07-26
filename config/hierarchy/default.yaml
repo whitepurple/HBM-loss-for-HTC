@@ -1,0 +1,8 @@
+name: default
+params: null
+
+dataset_name: ${data.dataset}
+data_dir: ${data.data_dir}
+target_labels: ${data.target_labels}
+hierarchy_node: ${data.node}
+hierarchy_tree: ${data.tree}
