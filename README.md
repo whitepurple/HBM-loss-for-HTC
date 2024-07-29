@@ -108,7 +108,7 @@ Move the downloaded data to ```./data/{dataset name}/raw``` according to the lic
 
 | Model | RCV1v2 Micro-F1 | RCV1v2 Macro-F1 | NYT Micro-F1 | NYT Macro-F1 | EURLEX57K Micro-F1 | EURLEX57K Macro-F1 |
 |------------|----------|-----------|--------|----------|---------|--------|
-|  [HPT](https://aclanthology.org/2022.emnlp-main.246/) (ZLPR) | 87.26 | 69.53 | 80.42 | **70.42** | - | - |
+|  [HPT](https://aclanthology.org/2022.emnlp-main.246/) ([ZLPR](https://arxiv.org/abs/2208.02955)) | 87.26 | 69.53 | 80.42 | **70.42** | - | - |
 | [HiDEC](https://ojs.aaai.org/index.php/AAAI/article/view/26520) (BCE) | **87.96** | 69.97 | 79.99 | 69.64 | **75.29** | - |
 
 | HPT | RCV1v2 Micro-F1 | RCV1v2 Macro-F1 | NYT Micro-F1 | NYT Macro-F1 | EURLEX57K Micro-F1 | EURLEX57K Macro-F1 |
