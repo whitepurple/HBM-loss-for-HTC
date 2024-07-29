@@ -1,7 +1,7 @@
 # HBM loss
 
 This repository contains code for the ACL24 (findings) paper: [Hierarchy-aware Biased Bound Margin Loss Function for Hierarchical Text Classification
-]()
+](https://openreview.net/forum?id=CBSohZD84m)
 
 Keywords: Hierarchical Text Classification, Classification Loss, Label Imbalance
 
@@ -10,7 +10,7 @@ TL;DR: This paper presents the Hierarchy-aware Biased Bound Margin (HBM) loss, a
 ![HBM loss](./figure/fig2.svg)
 
 ## Download data
-Move the downloaded data to ./data/{dataset name}/raw according to the license of each dataset.
+Move the downloaded data to ```./data/{dataset name}/raw``` according to the license of each dataset.
 
 ## Data Preprocess
 - RCV1-v2
