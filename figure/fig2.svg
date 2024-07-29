@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="305.37167mm"
-   height="85.857063mm"
-   viewBox="0 0 305.37168 85.857063"
+   width="309.93695mm"
+   height="92.859474mm"
+   viewBox="0 0 309.93696 92.859474"
    version="1.1"
    id="svg6631"
    inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
@@ -25,14 +25,14 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.1326108"
-     inkscape:cx="338.15675"
-     inkscape:cy="93.147617"
+     inkscape:cx="556.23697"
+     inkscape:cy="184.08795"
      inkscape:window-width="2560"
      inkscape:window-height="1057"
      inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g25042" />
+     inkscape:current-layer="layer1" />
   <defs
      id="defs6628">
     <path
@@ -627,7 +627,14 @@
      inkscape:label="레이어 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(74.761493,-176.98128)">
+     transform="translate(77.647758,-173.45088)">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.664213"
+       id="rect1278"
+       width="309.93695"
+       height="92.859474"
+       x="-77.647758"
+       y="173.45088" />
     <text
        xml:space="preserve"
        style="font-size:7.76111px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';font-variant-ligatures:none;stroke-width:0.264583"
@@ -1602,6 +1609,13 @@
          stroke-width="4"
          fill="none"
          id="path24882" />
+      <rect
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#cecece;stroke-width:2.66667"
+         id="rect1174"
+         width="257.21811"
+         height="187.29472"
+         x="261.68283"
+         y="69.266106" />
     </g>
     <g
        id="g25358">
