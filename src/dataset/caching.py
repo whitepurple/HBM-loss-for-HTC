@@ -6,7 +6,6 @@ from multiprocessing import Pool
 from pathlib import Path
 from argparse import ArgumentParser
 
-from easydict import EasyDict
 from tqdm import tqdm
 from transformers import AutoTokenizer
 

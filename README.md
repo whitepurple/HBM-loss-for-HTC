@@ -9,6 +9,19 @@ TL;DR: This paper presents the Hierarchy-aware Biased Bound Margin (HBM) loss, a
 
 ![HBM loss](./figure/fig2.svg)
 
+## Requirements
+```
+torch
+lightning==2.0.0
+torchmetrics==1.2.1
+transformers
+wandb
+ipykernel
+anytree
+hydra-core
+omegaconf
+```
+
 ## Download data
 Move the downloaded data to ```./data/{dataset name}/raw``` according to the license of each dataset.
 

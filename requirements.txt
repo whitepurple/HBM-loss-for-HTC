@@ -4,7 +4,6 @@ torchmetrics==1.2.1
 transformers
 wandb
 ipykernel
-easydict
 anytree
 hydra-core
 omegaconf
