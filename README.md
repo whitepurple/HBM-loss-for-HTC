@@ -1,7 +1,7 @@
 # HBM loss
 
 This repository contains code for the ACL24 (findings) paper: [Hierarchy-aware Biased Bound Margin Loss Function for Hierarchical Text Classification
-](https://openreview.net/forum?id=CBSohZD84m)
+](https://aclanthology.org/2024.findings-acl.457/)
 
 Keywords: Hierarchical Text Classification, Classification Loss, Label Imbalance
 
@@ -105,19 +105,20 @@ Move the downloaded data to ```./data/{dataset name}/raw``` according to the lic
 
 ## Main table
 
+Micro F1 (MiF1) and Macro F1 (MaF1) are the average performances of 10 runs with random weight initialization.
 
-| Model | RCV1v2 Micro-F1 | RCV1v2 Macro-F1 | NYT Micro-F1 | NYT Macro-F1 | EURLEX57K Micro-F1 | EURLEX57K Macro-F1 |
+| Model | RCV1v2 MiF1 | RCV1v2 MaF1 | NYT MiF1 | NYT MaF1 | EURLEX57K MiF1 | EURLEX57K MaF1 |
 |------------|----------|-----------|--------|----------|---------|--------|
 |  [HPT](https://aclanthology.org/2022.emnlp-main.246/) ([ZLPR](https://arxiv.org/abs/2208.02955)) | 87.26 | 69.53 | 80.42 | **70.42** | - | - |
 | [HiDEC](https://ojs.aaai.org/index.php/AAAI/article/view/26520) (BCE) | **87.96** | 69.97 | 79.99 | 69.64 | **75.29** | - |
 
-| HPT | RCV1v2 Micro-F1 | RCV1v2 Macro-F1 | NYT Micro-F1 | NYT Macro-F1 | EURLEX57K Micro-F1 | EURLEX57K Macro-F1 |
+| HPT | RCV1v2 MiF1 | RCV1v2 MaF1 | NYT MiF1 | NYT MaF1 | EURLEX57K MiF1 | EURLEX57K MaF1 |
 |-------|----------|-----------|--------|----------|---------|--------|
 | with BCE  | 87.65±0.11 | 69.87±0.40 | 79.49±0.22 | 68.66±0.30 | 71.57±0.58 | 25.34±0.59 |
 | with ZLPR | **87.82**±0.14 | 70.23±0.31 | 80.04±0.23 | 69.69±0.49 | 75.54±0.20 | 28.46±0.26 |
 | with **HBM**  | **87.82**±0.06 | **70.55**±0.13 | **80.42**±0.12 | **70.23**±0.18 | **75.78**±0.15 | **28.70**±0.22 |
 
-| HiDEC | RCV1v2 Micro-F1 | RCV1v2 Macro-F1 | NYT Micro-F1 | NYT Macro-F1 | EURLEX57K Micro-F1 | EURLEX57K Macro-F1 |
+| HiDEC | RCV1v2 MiF1 | RCV1v2 MaF1 | NYT MiF1 | NYT MaF1 | EURLEX57K MiF1 | EURLEX57K MaF1 |
 |-------|----------|-----------|--------|----------|---------|--------|
 | with BCE   | 87.70±0.12 | 70.82±0.20 | 80.13±0.16 | 69.80±0.24 | 75.14±0.19 | 27.91±0.11 |
 | with ZLPR  | 87.59±0.18 | 70.61±0.36 | 80.25±0.21 | 70.14±0.23 | 76.16±0.16 | 28.68±0.15 |
@@ -127,5 +128,21 @@ Move the downloaded data to ```./data/{dataset name}/raw``` according to the lic
 ## Cite
 
 ```bigquery
-update soon
+@inproceedings{kim-etal-2024-hierarchy,
+    title = "Hierarchy-aware Biased Bound Margin Loss Function for Hierarchical Text Classification",
+    author = "Kim, Gibaeg  and
+      Im, SangHun  and
+      Oh, Heung-Seon",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Findings of the Association for Computational Linguistics ACL 2024",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand and virtual meeting",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-acl.457",
+    pages = "7672--7682",
+    abstract = "Hierarchical text classification (HTC) is a challenging problem with two key issues: utilizing structural information and mitigating label imbalance. Recently, the unit-based approach generating unit-based feature representations has outperformed the global approach focusing on a global feature representation. Nevertheless, unit-based models using BCE and ZLPR losses still face static thresholding and label imbalance challenges. Those challenges become more critical in large-scale hierarchies. This paper introduces a novel hierarchy-aware loss function for unit-based HTC models: Hierarchy-aware Biased Bound Margin (HBM) loss. HBM integrates learnable bounds, biases, and a margin to address static thresholding and mitigate label imbalance adaptively. Experimental results on benchmark datasets demonstrate the superior performance of HBM compared to competitive HTC models.",
+}
 ```
