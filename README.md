@@ -1,4 +1,7 @@
 # HBM loss
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/hierarchy-aware-biased-bound-margin-loss/hierarchical-multi-label-classification-on-17)](https://paperswithcode.com/sota/hierarchical-multi-label-classification-on-17?p=hierarchy-aware-biased-bound-margin-loss)\
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/hierarchy-aware-biased-bound-margin-loss/hierarchical-multi-label-classification-on-18)](https://paperswithcode.com/sota/hierarchical-multi-label-classification-on-18?p=hierarchy-aware-biased-bound-margin-loss)\
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/hierarchy-aware-biased-bound-margin-loss/hierarchical-multi-label-classification-on-19)](https://paperswithcode.com/sota/hierarchical-multi-label-classification-on-19?p=hierarchy-aware-biased-bound-margin-loss)
 
 This repository contains code for the ACL24 (findings) paper: [Hierarchy-aware Biased Bound Margin Loss Function for Hierarchical Text Classification
 ](https://aclanthology.org/2024.findings-acl.457/)
